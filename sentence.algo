@@ -1,0 +1,26 @@
+ALGORITHM sentence
+var
+i,j : integer:= 0, words := 0;
+phrase : string:= "bonjour tout le monde";
+voy : char:= "a" "e" "u" "i" "y" "o";
+
+begin
+for(i= 0;i<phrase.size();i++){
+  if(i<phrase.size() and phrase==''){
+    i++;
+    words++;}
+    else{
+      i++;
+    }
+    end if;
+  write(i, "est le nombre de caractere", words, "est le nombre de mots");
+  }
+  if(voy in phrase){
+    j++;}
+  end if;
+  write(j, "est le nombre des voyelles");
+}
+end;
+
+
+
